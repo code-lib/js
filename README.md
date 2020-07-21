@@ -1,2 +1,2 @@
 # JS Library
-javascript source code library.
+javascript & jQuery source file library.
