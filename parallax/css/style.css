@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
 
 /* tag */
-html { scroll-behavior: smooth; }
+html { overflow-x: hidden; overflow-y: scroll; scroll-behavior: smooth; }
 html, body { margin: 0; padding: 0; }
 a {} a:hover {}
 img {}
