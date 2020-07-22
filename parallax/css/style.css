@@ -4,7 +4,6 @@
 @import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
 
 /* tag */
-html { overflow-x: hidden; overflow-y: scroll; scroll-behavior: smooth; }
 html, body { margin: 0; padding: 0; }
 a {} a:hover {}
 img {}
@@ -31,7 +30,7 @@ dl {} dl dt {} dl dd {}
 	min-height: 100%; height: auto; max-height: 100vh;
 	background-size: 100% auto;
 	background-attachment: fixed;
-	overflow-x: hidden; overflow-y: scroll; /* これがあるとjQueryスムーズスクロールが上手く効かない */
+	overflow-x: hidden; overflow-y: scroll; scroll-behavior: smooth; /* これがあるとjQueryスムーズスクロールが上手く効かない */
 	-webkit-perspective: 600px;
 	-moz-perspective: 600px;
 	-o-perspective: 600px;
